@@ -40,11 +40,11 @@
 
 ## Usage
 
-To test the API, make a `POST` request to `http://localhost:6000/post/contact` with the appropriate form data.
+To test the API, make a `POST` request to `http://localhost:30000/post/contact` with the appropriate form data.
 
 Here is a sample cURL request:
 ```bash
-curl --location --request POST 'http://localhost:6000/post/contact' \
+curl --location --request POST 'http://localhost:30000/post/contact' \
 --form 'name="John Doe"' \
 --form 'email="john.doe@email.com"' \
 --form 'message="Hello, World!"'
