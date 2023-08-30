@@ -25,7 +25,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.listen(3000, () => {
+app.listen(6000, () => {
   console.log('Server is running on http://localhost:6000');
 });
 
