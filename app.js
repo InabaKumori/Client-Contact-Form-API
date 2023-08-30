@@ -36,7 +36,7 @@ app.use((error, req, res, next) => {
   res.status(500).json({ error: 'An error occurred. Please try again later.' });
 });
 
-app.listen(6000, () => {
-  console.log('Server is running on http://localhost:6000');
+app.listen(30000, () => {
+  console.log('Server is running on http://localhost:30000');
 });
 
